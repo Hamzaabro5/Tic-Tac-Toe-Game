@@ -4,7 +4,6 @@ const resetBtn = document.querySelector(`.resetBtn`)
 const msgContainer = document.querySelector(`.msg-container`)
 const msg = document.querySelector(`.msg`)
 let turnX = true;
-let count = 0;
 
 const winPatterns = [
     [0, 1, 2],
@@ -28,12 +27,7 @@ boxes.forEach((box) =>{
             turnX = true;
         }
         box.disabled = true;
-        count++;
-        let isWinner = checkWin()
-
-        if(count === 9 && !isWinner){
-            gameDraw();
-        }
+        checkWin()
     })
 })
 
