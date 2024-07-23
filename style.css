@@ -58,3 +58,33 @@ body{
     color: #dddcdc;
     cursor: pointer;
 }
+.restartBtn{
+    margin-top: 4rem;
+    padding: 1.2rem 2.2rem;
+    font-size: 2.2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #20801d;
+    color: #fff;
+}
+.restartBtn:hover{
+    background-color: #289e24;
+    color: #dddcdc;
+    cursor: pointer;
+}
+.msg{
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hidden{
+    display: none;  
+}
