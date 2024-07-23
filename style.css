@@ -1,16 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
 }
 html,body{
     font-size: 63.5%;
 }
 h1{
+    margin-top: 2rem;
     font-size: 6rem;
 }
 body{
-    /* background-color: ; */
+
+    background-color: #DBB68F;
     text-align: center;
 }
 .container{
@@ -37,4 +38,23 @@ body{
     font-size: 8vmin;
     color: #75e0d2;
     background-color: #648666;
+    cursor: pointer;
+}
+.Box:hover{
+     color: #64c5b8;
+     background-color: #7f9e81;
  }
+ .resetBtn{
+    margin-top: 4rem;
+    padding: 1.2rem 2.2rem;
+    font-size: 2.2rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #c92828;
+    color: #fff;
+}
+.resetBtn:hover{
+    background-color: #da3d3d;
+    color: #dddcdc;
+    cursor: pointer;
+}
